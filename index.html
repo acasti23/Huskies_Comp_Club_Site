@@ -7,6 +7,7 @@
     <link href="css/style.css" rel="stylesheet" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script src="js/Script.js"></script>
 </head>
 <body>
@@ -20,7 +21,7 @@
                 <li><a href="index.html">Home</a></li>
             </ul>
         </div>
-     </header>
+    </header>
     <div class="Header">
         <center>
             <h1>Husky Computer Club</h1>
@@ -91,9 +92,9 @@
             </div>
             <div class="right">
                 <center>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13224.3379809603!2d-118.1490578!3d34.0417036!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2cf851451a11b%3A0xc82801b9b83c2e2b!2sELAC%20Technology%20Club!5e0!3m2!1sen!2sus!4v1706510239475!5m2!1sen!2sus"  height="280" width="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </center>
-</div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13224.3379809603!2d-118.1490578!3d34.0417036!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2cf851451a11b%3A0xc82801b9b83c2e2b!2sELAC%20Technology%20Club!5e0!3m2!1sen!2sus!4v1706510239475!5m2!1sen!2sus" height="280" width="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </center>
+            </div>
         </div>
     </div>
     <div class="Footer">
@@ -104,32 +105,32 @@
         <div class="Socials">
             <h3>Check Out our Socials</h3>
             <hr />
-            <img src="/img/discordIcon.jpg" width="35" height="35" />
+            <img src="img/discordIcon.jpg" width="35" height="35" />
             <a href="#">Discord</a>
             <br />
-            <img src="/img/GitHubIcon.png" width="35" height="35" />
+            <img src="img/GitHubIcon.png" width="35" height="35" />
             <a href="#">GitHub</a>
             <br />
-            <img src="/img/instaIcon.png" width="35" height="35" />
+            <img src="img/instaIcon.png" width="35" height="35" />
             <a href="#">Instagram</a><br />
-            <img src="/img/EmailIcon.png" width="35" height="35" />
+            <img src="img/EmailIcon.png" width="35" height="35" />
             <a href="#">Email</a>
         </div>
         <div class="Board">
             <h3>Contact Us</h3>
-            <form>
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" placeholder="Your name..">
-                <br />
-                <label for="email">Email</label>
-                <input type="text" id="lname" name="lastname" placeholder="Your Email..">
-                <br/>
-                <label for="subject">Message</label>
-                <textarea id="subject" name="subject" placeholder="Message.." style="height:100px"></textarea>
+            <form action="">
+                <div class="inputBox">
+                    <input type="text" placeholder="Full Name" id="name" class="item" autocomplete="off">
+                    <input type="text" placeholder="Email" id="email" class="item" autocomplete="off" />
+                </div>
+                <div class="TextArea">
+                    <textarea id="message" cols="25" rows="5" placeholder="Your message" class="item" autocomplete="off"></textarea>
+                    
+                </div>
+                <button id="submit">Send Message</button>
             </form>
-            <button>Send Message</button>
         </div>
-
     </div>
+    
 </body>
 </html>

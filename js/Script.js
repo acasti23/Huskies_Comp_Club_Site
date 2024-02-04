@@ -4,7 +4,6 @@ $(document).ready(function () {
     $("#scrollButton").click(function () {
         $("html, body").animate({ scrollTop: "+=500px" }, 500);
     });
-    
     if (docTitle == "Huskies Computer Club") {//Home Page 
         
         $(".IOT img").mouseover(function () {

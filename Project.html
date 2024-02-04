@@ -142,17 +142,17 @@
 
         <div class="Board">
             <h3>Contact Us</h3>
-            <form action="action_page.php">
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" placeholder="Your name..">
-                <br />
-                <label for="email">Email</label>
-                <input type="text" id="lname" name="lastname" placeholder="Your Email..">
-                <br />
-                <label for="subject">Message</label>
-                <textarea id="subject" name="subject" placeholder="Message.." style="height:100px"></textarea>
+            <form action="">
+                <div class="inputBox">
+                    <input type="text" placeholder="Full Name" id="name" class="item" autocomplete="off">
+                    <input type="text" placeholder="Email" id="email" class="item" autocomplete="off" />
+                </div>
+                <div class="TextArea">
+                    <textarea id="message" cols="25" rows="5" placeholder="Your message" class="item" autocomplete="off"></textarea>
+
+                </div>
+                <button id="submit">Send Message</button>
             </form>
-            <button>Send Message</button>
         </div>
 </body>
 </html>
