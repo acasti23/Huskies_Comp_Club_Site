@@ -1,21 +1,29 @@
-﻿h1 {
-    text-align:center;
+﻿body {
+ background-color:rgb(233,252,254);
+}
+h1 {
+    text-align: center;
 }
 
 .Header {
-    background-color: black;
+    background-color: rgb(34,36,42);
     color: white;
     align-items: center;
+    top: 0px;
     padding: 150px;
     height: 300px;
 }
 
 .navbar {
-    overflow: hidden;
-    background-color: darkslategrey;
-    margin-top: 10px;
-   
+    width: 90%;
+    background-color: rgb(37,87,47);
+    height: 80px;
+    border-radius: 40px;
+    position: fixed;
+    top: 10px;
+    left: 5%;
 }
+
     .navbar p, .navbar img {
         float: left;
         color: white;
@@ -37,18 +45,22 @@
         text-decoration: none;
     }
 .Section {
-    background-color: antiquewhite;
+    background-color: rgb(100,133,105);
     margin-left: 25px;
     width: 95%;
-    border-radius:5px;
-    
+    border-radius: 5px;
 }
+
 .mission, .Meeting {
-    background-color: antiquewhite;
+    background-color: rgb(180,233,190);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 10px 10px 10px 10px;
+   
+}
+.Section h1, .Meeting h1 {
+    color: white;
 }
 .left, .right {
     width: 50%;
@@ -69,7 +81,7 @@
     float: left;
     height: 150px;
     border-radius: 75px;
-    background-color:black;
+    background-color:rgb(34,36,42);
     color: white;
     
 }
@@ -92,8 +104,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    background-color: black;
+    background-color: rgb(34,36,42);;
     height: auto;
+    width: 100%;
 }
 .Socials img{
     border-radius:50%;
@@ -125,11 +138,11 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    background-color: floralwhite;
+    background-color: rgb(221,221,221);
     border-radius: 30px;
 }
 .ProjectSec {
-    background-color: black;
+    background-color: rgb(34,36,42);
     height: 420px;
     overflow:hidden;
     width: 45%;
@@ -151,6 +164,7 @@ button {
     border: none;
     color: white;
     padding: 15px 32px;
+    border-radius: 20px;
 }
 .Calender {
     display: flex;
@@ -160,7 +174,8 @@ button {
     margin-bottom: 20px;
 }
 .EventBox {
-    background-color: lightblue;
+    background-color: rgb(100,133,105);
+    color: white;
     margin-top: 50px;
     margin-bottom: 50px;
     width: 400px;
